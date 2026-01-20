@@ -28,11 +28,14 @@
       <button type="submit" class="btn btn-primary">Send</button>
     </form>
   </div>
-  
+
   <!--navbar-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">CodeX Academy</a>
+
+       <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+        <img src="https://mdhbdrqhokhkpwvajvik.supabase.co/storage/v1/object/public/images-codexWeb/codexlogo.jpg" alt="CodeX logo" width="40" height="40" class="me-2">
+        CodeX Academy</a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
         <span class="navbar-toggler-icon"></span>
@@ -56,12 +59,12 @@
   <!--main-->
   <section class="py-5">
     <div class="container">
-      <div class="row justify-content-center g-4">
+      <div class="row justify-content-center g-4" id="coursesContainer">
 
         <!--course card 1-->
         <div class="col-12 col-md-8 col-lg-6">
           <div class="card h-100 shadow-sm">
-            <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Front-end dev" />
+            <img src="https://mdhbdrqhokhkpwvajvik.supabase.co/storage/v1/object/public/images-codex_courses/frontend%20dev.jpg" class="card-img-top" alt="front-end dev" />
 
             <div class="card-body">
               <h5 class="card-title">Front-End Developer</h5>
@@ -70,51 +73,71 @@
                 Learn to build complete web applications using modern frontend
                 technologies. Available in English and Spanish. Students can choose to participate part or full time.
               </p>
+              <p class="fw-semibold mb-0">
+                Duration: <span class="text-muted">13-26 weeks</span>
+              </p>
+
             </div>
           </div>
         </div>
 
-<!--course card 2-->
+        <!--course card 2-->
         <div class="col-12 col-md-8 col-lg-6">
           <div class="card h-100 shadow-sm">
-            <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Full-Stack dev" />
+            <img src="https://mdhbdrqhokhkpwvajvik.supabase.co/storage/v1/object/public/images-codex_courses/fullstack%20dev.jpg" class="card-img-top" alt="full-stack dev" />
 
             <div class="card-body">
               <h5 class="card-title">Full-Stack Developer</h5>
 
-              <p class="card-text">
-                full stack dev summary
+              <p class="card-text"> Students will focus on building functional dynamic web applications by working
+                across both front & back-end technologies,
+                while learning to create clean code, connect databases, develop APIs, and deploy real-world projects.
               </p>
+              <p class="fw-semibold mb-0">
+                Duration: <span class="text-muted">26-52 weeks</span>
+              </p>
+
             </div>
           </div>
         </div>
 
-<!--course card 3-->
+        <!--course card 3-->
         <div class="col-12 col-md-8 col-lg-6">
           <div class="card h-100 shadow-sm">
-            <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Full-Stack Engineer" />
+            <img src="https://mdhbdrqhokhkpwvajvik.supabase.co/storage/v1/object/public/images-codex_courses/fullstack%20eng.jpg" class="card-img-top" alt="full-stack eng" />
 
             <div class="card-body">
               <h5 class="card-title">Full-Stack Engineer</h5>
 
               <p class="card-text">
-                Full-stack engineer summary.
+                Learn how to build web applications by combining front-end design and back-end development, databases,
+                and deployment.
+                Students grasp real-world skills used in modern software development.
+              </p>
+              <p class="fw-semibold mb-0">
+                Duration: <span class="text-muted">39-76 weeks</span>
               </p>
             </div>
           </div>
         </div>
 
-<!--course card 4-->
+        <!--course card 4-->
         <div class="col-12 col-md-8 col-lg-6">
           <div class="card h-100 shadow-sm">
-            <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Web Architect Bootcamp" />
+            <img src="https://mdhbdrqhokhkpwvajvik.supabase.co/storage/v1/object/public/images-codex_courses/web%20arch.jpg" class="card-img-top" alt="Web Architect" />
 
             <div class="card-body">
               <h5 class="card-title">Web Architect</h5>
 
-              <p class="card-text">
-                web architect summary.
+              <p class="card-text"> This program teaches students how to design and plan scalable, secure web
+                applications. Students will be
+                focused on application structure, system architecture, performance, and best practices for building
+                reliable, long-term solutions.
               </p>
+              <p class="fw-semibold mb-0">
+                Duration: <span class="text-muted">12 Weeks (self-paced)</span>
+              </p>
+
             </div>
           </div>
         </div>
@@ -122,9 +145,9 @@
       </div>
     </div>
   </section>
-<!--main end-->
+  <!--main end-->
 
-<!--course summary table-->
+  <!--course summary table-->
   <div class="container my-5">
     <h2 class="text-center mb-4">CodeX Course Information</h2>
     <div class="table-responsive">
@@ -169,7 +192,7 @@
 
 
 
-<!--footer-->
+  <!--footer-->
   <footer class="bg-dark text-light py-4">
     <div class="container text-center">
       <p class="mb-1">© 2026 CodeX Academy</p>
@@ -179,7 +202,7 @@
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="js/courses.js"></script>
   <script src="js/chatbot.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

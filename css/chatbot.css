@@ -10,7 +10,7 @@
   color: white;
   border: none;
   cursor: pointer;
-  z-index: 1001;
+  z-index: 9999;
 }
 
 .chat-closed {
@@ -28,11 +28,12 @@
   justify-content: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
+  z-index: 9998;
 }
 
 .chat-open {
   position: fixed;
-  bottom: 20px;
+  bottom: 90px;
   right: 20px;
   width: 320px;
   height: 400px;
@@ -43,6 +44,7 @@
   display: flex;
   flex-direction: column;
   transition: all 0.3s ease;
+  z-index: 10000;
 }
 
 .chat-header {
@@ -71,4 +73,30 @@
   text-align: left;
   margin-bottom: 10px;
   color: #007bff;
+}
+
+#chat-form {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+}
+
+#chat-input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+#chat-form .btn {
+  padding: 8px 12px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  margin-left: -1px;
+  cursor: pointer;
 }
