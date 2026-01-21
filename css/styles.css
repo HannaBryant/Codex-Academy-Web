@@ -1,0 +1,160 @@
+body {
+background-color: #ababadbd;
+}
+
+/* courses page*/
+
+.course-card {
+  background-color: #eff3f6d8;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+.course-card .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 0.25rem;
+  background-color: #f8f9fa;
+  object-fit: cover;
+}
+
+.course-card .card-body {
+  padding: 1.5rem;
+}
+
+.course-card .card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f1114;
+  margin-bottom: 0.5rem;
+}
+
+.course-card .card-text {
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  line-height: 1.6;
+  color: #212529;
+}
+
+/* codex info  table */
+
+.course-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;          
+  font-size: 2rem;
+}
+
+/* navbar */
+
+.custom-navbar {
+  background-color: #212529;
+}
+
+.custom-navbar .navbar-brand {
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+
+.custom-navbar .nav-link {
+  color: #3184ff;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffc107;
+}
+
+.custom-navbar .nav-link.active {
+  color: #ffc107;
+  font-weight: 600;
+}
+
+/* home page */
+
+section h1, section h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  color: #101112;
+}
+
+
+.tech-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s;
+   border: 2px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+
+.tech-logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.tech-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tech-caption {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1d2124;
+  text-align: center;
+}
+
+.home-section .lead {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #1c1f23;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+}
+
+/* home page ocial */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #ffffff;
+  transition: transform 0.3s, opacity 0.3s;
+  text-decoration: none;
+}
+
+.social-icon.youtube { background-color: #FF0000; }
+.social-icon.facebook { background-color: #1877F2; }
+.social-icon.linkedin { background-color: #0A66C2; }
+
+.social-icon:hover {
+  transform: scale(1.1);
+  opacity: 0.85; }

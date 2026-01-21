@@ -19,8 +19,8 @@ async function loadCourses() {
   courses.forEach(course => {
     container.innerHTML += `
       <div class="col-12 col-md-8 col-lg-6">
-        <div class="card h-100 shadow-sm">
-          <img src="${course.image_url}" class="card-img-top" alt="${course.name}" />
+        <div class="card shadow-sm rounded-3 course-card">
+          <img src="${course.image_url}" class="card-img-top rounded-top" alt="${course.name}" />
           <div class="card-body">
             <h5 class="card-title">${course.name}</h5>
             <p class="card-text">${course.description}</p>
