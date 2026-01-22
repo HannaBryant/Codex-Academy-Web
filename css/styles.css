@@ -130,7 +130,29 @@ section h1, section h2 {
   text-align: center;
 }
 
-/* home page ocial */
+.codex-accent-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.5rem;
+}
+
+.codex-accent {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.codex-accent img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  opacity: 0.85;
+  object-fit: cover;
+}
+
+/* home page social */
 .social-links {
   display: flex;
   justify-content: center;
@@ -158,3 +180,49 @@ section h1, section h2 {
 .social-icon:hover {
   transform: scale(1.1);
   opacity: 0.85; }
+
+/* contact page */
+
+.contact-card {
+  background-color: #e5e0e0f6;
+  padding: 2.25rem;
+  border-radius: 1.25rem;
+  box-shadow:  0 20px 40px rgba(0, 0, 0, 0.12),
+    0 8px 16px rgba(0, 0, 0, 0.08);
+  border: 2px solid #363737;
+}
+
+.contact-card .form-control {
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  border: 2px solid #ced4da;
+}
+
+
+.contact-card .btn {
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-card .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.15);
+}
+
+.contact-page h2 {
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 0.75rem;
+  position: relative;
+  top: -10px;
+}
+
+.contact-card .form-label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #212529;
+  letter-spacing: 0.3px;
+}
